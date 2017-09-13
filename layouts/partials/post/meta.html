@@ -1,7 +1,8 @@
 <span class="icon">
   <i class="fa fa-clock-o" aria-hidden="true"></i>
 </span>
-<span>Tiempo de lectura aproximado {{ .ReadingTime }} minuto/s.</span>
+{{$rt := .ReadingTime}}
+<span>Tiempo de lectura aproximado de {{ $rt }} minuto{{if gt $rt 1}}s{{end}}.</span>
 <span class="icon">
  <i class="fa fa-pencil"></i>
 </span>

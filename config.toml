@@ -1,11 +1,11 @@
 baseURL = "https://medea.netlify.com/"
-languageCode = "es"
+languageCode = "es-es"
 title = "Proyecto MEDEA 3"
 theme = "kube"
 description = "Web del proyecto de investigación Desigualdades socioeconómicas y medioambientales en la distribución geográfica de la mortalidad en grandes ciudades de España (1996-2015)"
 Paginate = 4
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.Rproj$"]
-disqusShortname = "proyectomedea"
+disqusShortname = "medea-1"
 enableEmoji = true
 
 [author]
@@ -17,9 +17,7 @@ enableEmoji = true
   twitter = "medeaproj" # add your twitter profile
   email = "correo@electronico.com"
   highlight_languages = ["r", "cpp", "sql", "bash", "tex"]
-
-
-
+  sharing = true
 
 [[menu.main]]
     name = "Blog"
